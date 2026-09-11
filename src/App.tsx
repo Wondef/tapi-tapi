@@ -5,7 +5,7 @@ import { translations } from './translations';
 
 export type Language = 'he' | 'en' | 'ru';
 
-const WHATSAPP_NUMBER = '97250000000'; // Замените на ваш номер
+const WHATSAPP_NUMBER = '972504577602'; // Замените на ваш номер
 const buildWhatsAppUrl = (message: string) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 
 export default function App() {
